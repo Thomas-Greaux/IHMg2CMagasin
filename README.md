@@ -7,4 +7,4 @@ Repository for Groupe 2C
   * Members:
     *  [GREAUX Thomas](mailto:thomas.greaux@etu.unice.fr)
     *  [LARA Jeremy](mailto:jeremy.lara@etu.unice.fr)
-	* [Contacter l'équipe](mailto:thomas.greaux@etu.unice.fr&to:jeremy.lara@etu.unice.fr)
+	* [Contacter l'équipe](mailto:thomas.greaux@etu.unice.fr&to=jeremy.lara@etu.unice.fr)
