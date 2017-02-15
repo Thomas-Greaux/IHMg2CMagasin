@@ -60,7 +60,7 @@
                      <children>
                         <ImageView fitHeight="88.0" fitWidth="120.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@Images/arrival.png" />
+                              <Image url="@../Images/arrival.png" />
                            </image>
                            <HBox.margin>
                               <Insets />
@@ -90,7 +90,7 @@
                      <children>
                         <ImageView fitHeight="86.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@Images/start.png" />
+                              <Image url="@../Images/start.png" />
                            </image>
                         </ImageView>
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="320.0">
