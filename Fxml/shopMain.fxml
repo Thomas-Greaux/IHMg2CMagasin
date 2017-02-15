@@ -185,31 +185,31 @@
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label text="15.99$" />
+                              <Label text="15.99€" />
                            </children>
                         </VBox>
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label text="25.99$" />
+                              <Label text="25.99€" />
                            </children>
                         </VBox>
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label text="17.99$" />
+                              <Label text="17.99€" />
                            </children>
                         </VBox>
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label text="45.99$" />
+                              <Label text="45.99€" />
                            </children>
                         </VBox>
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label text="5.99$" />
+                              <Label text="5.99€" />
                            </children>
                         </VBox>
                      </children>
@@ -238,12 +238,7 @@
                         </HBox>
                      </bottom>
                      <center>
-                        <HBox alignment="CENTER" prefHeight="240.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-                           <children>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                           </children>
-                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="240.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
                      </center>
                   </BorderPane>
                   <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="500.0">
@@ -273,7 +268,10 @@
                   </BorderPane>
                </children>
             </HBox>
-         </children></VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin></VBox>
    </left>
    <right>
       <VBox alignment="TOP_CENTER" prefHeight="880.0" prefWidth="840.0" BorderPane.alignment="CENTER">
@@ -617,6 +615,9 @@
                </VBox.margin>
             </VBox>
             <Slider blockIncrement="5.0" max="300.0" minorTickCount="4" prefWidth="830.0" />
-         </children></VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets left="10.0" />
+         </BorderPane.margin></VBox>
    </right>
 </BorderPane>

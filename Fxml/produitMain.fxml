@@ -148,7 +148,7 @@
             </Label>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label text="49.9999$">
+                  <Label text="49.99€">
                      <font>
                         <Font size="55.0" />
                      </font>
