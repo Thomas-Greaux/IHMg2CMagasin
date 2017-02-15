@@ -9,12 +9,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <Label contentDisplay="CENTER" text="Les Plus Populaires" BorderPane.alignment="CENTER">
          <font>
-            <Font size="50.0" />
+            <Font size="30.0" />
          </font>
          <opaqueInsets>
             <Insets />
