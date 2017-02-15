@@ -136,7 +136,14 @@
          </children></HBox>
    </bottom>
    <left>
-      <VBox prefHeight="880.0" prefWidth="1080.0" BorderPane.alignment="CENTER" />
+      <VBox alignment="TOP_CENTER" prefHeight="880.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_LEFT" text="Nos produits" underline="true">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+         </children></VBox>
    </left>
    <right>
       <VBox prefHeight="880.0" prefWidth="840.0" BorderPane.alignment="CENTER" />
