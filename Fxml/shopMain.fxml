@@ -201,7 +201,7 @@
             </BorderPane>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="500.0">
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="500.0">
                      <top>
                         <Label text="Nouveaux Produits - Neurologies" underline="true" BorderPane.alignment="CENTER">
                            <font>
@@ -226,7 +226,7 @@
                         </HBox>
                      </center>
                   </BorderPane>
-                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="500.0">
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="500.0">
                      <top>
                         <Label text="Nouveaux Produits - Sciences" underline="true" BorderPane.alignment="CENTER">
                            <font>
