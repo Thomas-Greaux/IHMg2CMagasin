@@ -51,12 +51,12 @@
          <children>
             <ImageView fitHeight="88.0" fitWidth="120.0" layoutX="1006.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/arrival.png" />
+                  <Image url="@../Images/arrival_icon.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="86.0" fitWidth="106.0" layoutX="246.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/start.png" />
+                  <Image url="@../Images/start_icon.png" />
                </image>
             </ImageView>
             <Line endX="520.0" endY="-340.0" layoutX="471.0" layoutY="636.0" startX="-125.0" startY="4.0" />
@@ -82,7 +82,7 @@
                      <children>
                         <ImageView fitHeight="88.0" fitWidth="120.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Images/arrival.png" />
+                              <Image url="@../Images/arrival_icon.png" />
                            </image>
                            <HBox.margin>
                               <Insets />
@@ -112,7 +112,7 @@
                      <children>
                         <ImageView fitHeight="86.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Images/start.png" />
+                              <Image url="@../Images/start_icon.png" />
                            </image>
                         </ImageView>
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="320.0">

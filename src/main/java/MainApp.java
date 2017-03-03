@@ -1,5 +1,6 @@
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -25,11 +26,13 @@ public class MainApp extends Application{
     public void initializeRootLayout() throws Exception {
         // Load root layout from fxml file.
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(MainApp.class.getResource("Fxml/shopMain.fxml"));
-        rootLayout = (BorderPane) loader.load();
+        String fxmlFile = "/Fxml/shopMain.fxml";
+        Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(fxmlFile));
+        loader.setLocation(MainApp.class.getResource(fxmlFile));
+        //rootLayout = (BorderPane) loader.load();
 
         // Show the scene containing the root layout.
-        Scene scene = new Scene(rootLayout);
+        Scene scene = new Scene(rootNode);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
