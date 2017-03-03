@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/logo.png" />
+            <Image url="@../images/logo.png" />
          </image>
          <HBox.margin>
             <Insets left="5.0" />
@@ -34,7 +34,7 @@
          <children>
             <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/search_icon.png" />
+                  <Image url="@../images/search_icon.png" />
                </image>
             </ImageView>
             <TextField prefHeight="50.0" prefWidth="300.0" promptText="Rechercher">
